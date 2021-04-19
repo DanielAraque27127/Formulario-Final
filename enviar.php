@@ -1,4 +1,6 @@
 <?php  
+"terminal.integrated.sendKeybindingsToShell": true,
+"php.validate.executablePath": ""
 
 // Llamando a los campos
 $nombre = $_POST['nombre'];
