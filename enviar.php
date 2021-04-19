@@ -1,6 +1,5 @@
 <?php  
-"terminal.integrated.sendKeybindingsToShell": true,
-"php.validate.executablePath": ""
+
 
 // Llamando a los campos
 $nombre = $_POST['nombre'];
@@ -20,5 +19,7 @@ $carta .= "Mensaje: $mensaje";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
 header('Location:mensaje-de-envio.html');
+
+$carta ="nombre" . $nombre . "\ncorreo" . $correo . "\ntelefono". $telefono . "\nmensaje" . $mensaje;
 
 ?>
