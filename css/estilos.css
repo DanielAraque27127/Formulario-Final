@@ -16,21 +16,29 @@
     outline: none;
 }
 
-body{
-    background: #DBDBDB;
-    font-family: 'Open sans';
-}
+
+
+#video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+    opacity: 70%;
+    }
 
 /* FORMULARIO =================================== */
 
 .form_wrap{
     width: 1050px;
     height: 530px;
-    margin: 50px auto;
+    margin: 160px auto;
     display: flex;
 
     background: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
@@ -46,8 +54,9 @@ body{
     top: 0;
     left: 0;
 
-    background: #4091EC;
-    opacity: 0.9;
+    background: #AA5AA9;
+    opacity: 100%;
+    
 }
 
 .cantact_info{
@@ -86,13 +95,14 @@ body{
 .info_title h2{
     font-size: 35px;
     text-align: center;
+    font-family: 'Patua One', cursive;
 }
 
 .info_items p{
     display: flex;
     align-items: center;
-
-    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -120,6 +130,7 @@ form.form_contact h2{
 	font-weight: 600;
 	color: #303030;
 	margin-bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 form.form_contact .user_info{
@@ -129,6 +140,7 @@ form.form_contact .user_info{
 
 form.form_contact label{
     font-weight: 600;
+    font-family: 'Questrial', sans-serif;
 }
 
 form.form_contact input,
@@ -154,7 +166,7 @@ form.form_contact textarea{
 
 form.form_contact input[type="submit"]{
     width: 180px;
-	background: #4091EC;
+	background: #AA5AA9;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
@@ -162,7 +174,7 @@ form.form_contact input[type="submit"]{
     align-self: flex-end;
 
     color: #fff;
-	font-family: 'Open sans';
+	font-family: 'Questrial', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
